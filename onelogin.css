@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', 'Helvetica Neue',;
+}
+
+.container{
+    background-color: #F6F9FA;
+    min-height: 100vh;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+//background-color: aquamarine;
+}
+
+.image-container{
+background-color: black;
+padding: 2.4rem 7rem;
+//margin-bottom: 1rem;
+display: flex;
+justify-content: center;
+}
+
+.image-container img{
+display: block;
+height: 5.9rem;
+cursor: pointer;
+}
+.box-container{
+    padding: 3rem 2.5rem;
+    background-color: white;
+    min-width: 37rem;
+}
+
+form{
+    font-size: 1.7rem;
+    color: #9A9A9B;
+}
+.username{
+    margin-bottom: 1rem;
+}
+.input-box{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.input-box input{
+    width: 100%;
+    min-height: 4.7rem;
+    border: 1px solid rgb(222,224,224);
+    padding: 0 1rem;
+    color: rgb(63, 64, 64);
+    font-family: Roboto, "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    letter-spacing: 0.02rem;
+}
+
+.remember-me-checkbox{
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.remember-me-checkbox input{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 0.8rem;
+}
+
+.btn-blue{
+    width: 100%;
+    color: white;
+    background-color: #0095C4;
+    border: none;
+    padding: 1.4rem 0rem;
+    font-size: 1.55rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.last-section{
+        display: flex;
+        font-size: 1.5rem;
+        color: #0095C4;
+        margin-top: 2.7rem;
+        justify-content: center;
+}
+
+.forgot-password{
+    padding-right: 1.3rem;
+    margin-right: 1.2rem;
+    border-right: 1px solid rgb(222,224,224);
+}
+
+
